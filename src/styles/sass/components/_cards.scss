@@ -1,0 +1,28 @@
+.card {
+  grid-area: card;
+  grid-gap: 1fr;
+  grid-column: span 1;
+  border: 1px solid #ebebeb;
+  border-radius: 13px;
+  padding: 0px 10px 10px 10px;
+  background-color: $content-color;
+}
+.card-info {
+  display: flex;
+  justify-content: space-between;
+}
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.card-numbers {
+  display: flex;
+  flex-direction: row;
+}
+/*Elipsis*/
+
+.test:after {
+  content: "\2026";
+  font-size: 40px;
+}

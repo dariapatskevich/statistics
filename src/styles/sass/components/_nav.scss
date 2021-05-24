@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $content-color;
+  position: sticky;
+  min-height: 880px;
+}
+.nav__logo {
+  margin-top: 70px;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav__item {
+  margin-bottom: 40px;
+}
+
+.nav__img {
+  width: 30px;
+}
+
+.nav__tumbler {
+  margin-bottom: 50px;
+  width: 50px;
+}

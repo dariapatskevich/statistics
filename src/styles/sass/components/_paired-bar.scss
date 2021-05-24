@@ -1,0 +1,12 @@
+.paired-bar {
+  grid-area: paired-bar;
+  border: 1px solid #ebebeb;
+  border-radius: 13px;
+  padding: 0px 10px 10px 10px;
+  background-color: $content-color;
+}
+.bar-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

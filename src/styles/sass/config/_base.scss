@@ -1,0 +1,38 @@
+/*font-family: 'Newsreader', serif;*/
+.app {
+  display: flex;
+  max-width: 1280px;
+  height: 880px;
+  margin: 0 auto;
+}
+.app__nav {
+  width: 6%;
+  top: 0;
+  left: 0;
+}
+.app__main {
+  width: 94%;
+  padding: 50px;
+}
+
+.main__body {
+  display: grid;
+  grid-template-rows: 150px 250px 250px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "card card card"
+    "graphic graphic diagram"
+    "gistogram gistogram paired-bar";
+  grid-gap: 32px;
+  font-family: "Newsreader", serif;
+  padding-top: 10px;
+  border-radius: 14px;
+}
+
+li {
+  list-style-type: none;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
+}

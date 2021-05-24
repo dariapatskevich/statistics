@@ -1,0 +1,20 @@
+.diagram {
+  grid-area: diagram;
+  border: 1px solid #ebebeb;
+  border-radius: 13px;
+  padding: 0px 10px 10px 10px;
+  background-color: $content-color;
+}
+.diagram-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.diagram-gadget {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.img-diagram {
+  width: 35%;
+}
